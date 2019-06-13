@@ -83,11 +83,11 @@ Some insights derived from coordinates, latitudes & longitudes, are summarized a
 - Popular start stations in Berkeley and San Jose were mostly rented by riders who leveraged the `Bike Share for All` program. The number of regular customers, i.e. those who paid full price for the bike sharing service, are relatively small compared with those in San Francisco and Oakland.   
 
 ## Key Insights for Presentation
-> Ford GoBike bike sharing service is popular in San Francisco, Oakland, Berkeley and San Jose. Customers are between 18 and 66 years old with the majority between 28 and 41. The average customer age is at 35.86 years old.
-> Average ride distance for subscribers is 1.04 miles and 1.21 miles for non-Subscribers.
-> Average ride duration for subscribers is 11.19 mins and 26.64 mins for non-Subscribers.
-> Based on the timing and patterns subscribers most likely use bikes for daily commute either to school or to work. Non-subscribers show peak rental counts after hours or in weekends.
-> Riders who took advantage of the "Bike Share for All" program preferred to rent bikes in Berkeley or in in San Jose, followed by Oakland Downtown. San Francisco also has quite a few popular bike stations for "Bike Share for All" riders but the majority of the Top 100 most popular bike stations in the city are regular stations.
+- Ford GoBike bike sharing service is popular in San Francisco, Oakland, Berkeley and San Jose. Customers are between 18 and 66 years old with the majority between 28 and 41. The average customer age is at 35.86 years old.
+- Average ride distance for subscribers is 1.04 miles and 1.21 miles for non-Subscribers.
+- Average ride duration for subscribers is 11.19 mins and 26.64 mins for non-Subscribers.
+- Based on the timing and patterns subscribers most likely use bikes for daily commute either to school or to work. Non-subscribers show peak rental counts after hours or in weekends.
+- Riders who took advantage of the "Bike Share for All" program preferred to rent bikes in Berkeley or in in San Jose, followed by Oakland Downtown. San Francisco also has quite a few popular bike stations for "Bike Share for All" riders but the majority of the Top 100 most popular bike stations in the city are regular stations.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details
