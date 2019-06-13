@@ -1,11 +1,13 @@
 # Exploratory Visualization on Ford GoBike Data
 ## by Jeremy Sung
-## Objective
-> Perform exploratory analysis and Geo Analytics on Ford GoBike archives stored on AWS S3 and create slides to communicate the data story
+Data visualization present data intuitively. It helps in data exploration and in communication of the findings. With the assistance of Statistics in the exploration phase we form hypotheses which help us select machine learning or deep learning algorithms to build models and evaluate the result.
 
-## Dataset
+In this project, I explored a handful of Python data visualization techniques including matplotlib, seaborn, bokeh as well as libraries used in GeoAnalytics such as geopy, geopandas, Shapely.geometry and descartes. My goal is to apply these techniques in data exploratory and to generate illustration to communicate the data story.  
 
-> Ford GoBike System Data Set includes information about individual bike rides via this bike-sharing system in greater SF Bay area. It consists of 16 different variables such as age, gender, weekday, time and others and 3.31 billion rides. Ages between 18 and 56 cover 95% of the users in dataset. Riders over 100 years old can also be found. I remove users more than 60 years old. In order to make grouping and analyze the date by using groups i generated new fields such as age group.
+## Dataset Overview
+One of the reasons I chose the Ford GoBike archives as my target is because it is stored on AWS S3 storage. AWS S3 is a popular data source for archives.  
+
+Ford GoBike System Data Set includes information about individual bike rides via this bike-sharing system in greater SF Bay area. The dataset consists of 17 files which includes a merged zip file of the 2017 bike renting records since June followed by 16 monthly zip-format records afterwards till April 2019. Each record contains 16 different variables such as age, gender, weekday, time and others and 3.31 billion rides. Ages between 18 and 56 cover 95% of the users in dataset. Riders over 100 years old can also be found. I remove users more than 60 years old. In order to make grouping and analyze the date by using groups i generated new fields such as age group.
 
 ## Summary of Findings
 
@@ -85,4 +87,10 @@ Some insights derived from coordinates, latitudes & longitudes, are summarized a
 > Average ride distance for subscribers is 1.04 miles and 1.21 miles for non-Subscribers.
 > Average ride duration for subscribers is 11.19 mins and 26.64 mins for non-Subscribers.
 > Based on the timing and patterns subscribers most likely use bikes for daily commute either to school or to work. Non-subscribers show peak rental counts after hours or in weekends.
-> Riders who took advantage of the "Bike Share for All" program preferred to rent bikes in Berkeley or in in San Jose, followed by Oakland Downtown. San Francisco also has quite a few popular bike stations for "Bike Share for All" riders but the majority of the Top 100 most popular bike stations in the city are regular stations.         
+> Riders who took advantage of the "Bike Share for All" program preferred to rent bikes in Berkeley or in in San Jose, followed by Oakland Downtown. San Francisco also has quite a few popular bike stations for "Bike Share for All" riders but the majority of the Top 100 most popular bike stations in the city are regular stations.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](https://gist.github.com/PurpleBooth/LICENSE.md) file for details
+
+## Acknowledgments
+Udacity inspired me. I deeply appreciate Udacity for all the guidance I received from Udacity mentors and the resources to help me develop the story.    
